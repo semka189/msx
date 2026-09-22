@@ -1,0 +1,11 @@
+
+{
+  "name": "My MovieLab",
+  "version": "1.0.0",
+  "parameter": "menu:{PREFIX}{SERVER}/msx/menu.json",
+  "launcher": {
+    "parameter": "link:https://movielab.one/home",
+    "icon": "movie",
+    "color": "#263238"
+  }
+}
