@@ -1,0 +1,26 @@
+
+{
+  "headline": "My Cinema",
+  "menu": [
+    {
+      "label": "MovieLab",
+      "icon": "movie",
+      "data": {
+        "type": "pages",
+        "headline": "MovieLab",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,4,3",
+          "color": "msx-glass",
+          "icon": "movie"
+        },
+        "items": [
+          {
+            "title": "Открыть MovieLab",
+            "action": "link:https://movielab.one/home"
+          }
+        ]
+      }
+    }
+  ]
+}
