@@ -1,7 +1,7 @@
 
 {
   "name": "My Cinema",
-  "version": "4.0.0",
+  "version": "6.0.0",
   "headline": "MY CINEMA",
   "cache": false,
   "menu": [
@@ -25,13 +25,18 @@
           },
           {
             "title": "KinoGo",
-            "icon": "movie",
+            "image": "https://semka189.github.io/msx/kinogo.png",
             "action": "link:https://kinogo.biz/"
           },
           {
             "title": "Rezka",
-            "icon": "play-circle",
+            "image": "https://semka189.github.io/msx/rezka.png",
             "action": "link:https://rezka.ag/"
+          },
+          {
+            "title": "ATODO",
+            "image": "https://semka189.github.io/msx/atodo.png",
+            "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
           }
         ]
       }
