@@ -1,23 +1,37 @@
 
 {
-  "headline": "My Cinema",
+  "name": "My Cinema",
+  "version": "4.0.0",
+  "headline": "MY CINEMA",
+  "cache": false,
   "menu": [
     {
-      "label": "MovieLab",
-      "icon": "movie",
+      "label": "Мои приложения",
+      "icon": "apps",
       "data": {
         "type": "pages",
-        "headline": "MovieLab",
+        "headline": "Мои приложения",
         "template": {
-          "type": "separate",
-          "layout": "0,0,4,3",
+          "type": "default",
+          "layout": "0,0,3,3",
           "color": "msx-glass",
-          "icon": "movie"
+          "imageFiller": "fit"
         },
         "items": [
           {
-            "title": "Открыть MovieLab",
+            "title": "MovieLab",
+            "image": "https://semka189.github.io/msx/movielab.png",
             "action": "link:https://movielab.one/home"
+          },
+          {
+            "title": "KinoGo",
+            "icon": "movie",
+            "action": "link:https://kinogo.biz/"
+          },
+          {
+            "title": "Rezka",
+            "icon": "play-circle",
+            "action": "link:https://rezka.ag/"
           }
         ]
       }
